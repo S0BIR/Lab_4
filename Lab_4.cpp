@@ -76,3 +76,82 @@ int main(){
     cin>>a;
     
 }
+
+
+
+
+#include <iostream>
+using namespace std;
+
+
+//PROBLEM11
+//int main(){
+//    int a;
+//    cout<<"a three-digit integer:"<<endl;
+//    cin>>a;
+//    a=a/10+
+//}
+
+
+
+//PROBLEM12
+//int main(){
+//    char a;
+//    cin>>a;
+//    if (a=='g')
+//        cout<<"Go!"<<endl;
+//    else if (a=='y')
+//    cout<<"Get ready!"<<endl;
+//    else if (a=='r')
+//        cout<<"Stop"<<endl;
+//    else
+//        cout<<"Please write correct letter"<<endl;}
+
+
+
+//PROBLEM13
+//int main(){
+//    int a,b;
+//    cout<<"0.Sunday\n 1.Monday\n 2.Tuesday\n 3.Wednesday\n 4.Thursday\n 5.Friday\n 6.Saturday\n";
+//    cout<<"Enter today's day:"<<endl;
+//    cin>>a;
+//    cout<<"Enter the number of days elapsed since today:"<<endl;
+//    cin>>b;
+//    int c=(a+b)%7;
+//    if (c==0)
+//    cout<<"Future day is Sunday";
+//    else if (c==1)
+//        cout<<"Future day is Monday";
+//    else if (c==2)
+//        cout<<"Future day is Tuesday";
+//    else if (c==3)
+//        cout<<"Future day is Wednesday";
+//    else if (c==4)
+//        cout<<"Future day is Thursday";
+//    else if (c==5)
+//        cout<<"Future day is Friday";
+//    else if (c==6)
+//        cout<<"Future day is Satuday";}
+
+
+
+//PROBLEM14
+int main(){
+    int a;
+    cin>>a;
+    switch (a>=90) {
+        cout<<"A";
+        break;}
+        switch (a>=80){
+        cout<<"B";
+        break;}
+        switch (a>=70){
+            cout<<"C";
+        break;}
+        switch (a>=60){
+            cout<<"D";
+        break;}
+        switch(a<=59){
+            cout<<"F";
+    }
+}
